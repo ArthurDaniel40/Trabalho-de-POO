@@ -8,21 +8,21 @@ public class TestePersonagem : MonoBehaviour
     void Start()
     {
         Mago1.Nome = "Arthur mestre do fogo";
-        Mago1.Forca = 12;
+        Mago1.Nivel = 12;
         Mago1.Vida = 120;
         Mago1.Mana = 250;
-        Mago1.HabilidadeEspecial = "Explosão Arcana";
-        Mago1.TipoDeDano = "Magia Caótica";
+        Mago1.HabilidadeEspecial = "Bola de fogo";
+        Mago1.TipoDeDano = "Quimadura";
         
         Mago2.Nome = "Zarek";
-        Mago2.Forca = 8;
+        Mago2.Nivel = 8;
         Mago2.Vida = 90;
         Mago2.Mana = 180;
-        Mago2.HabilidadeEspecial = "Explosão Arcana";
-        Mago2.TipoDeDano = "Magia Negra";
+        Mago2.HabilidadeEspecial = "Bola de fogo";
+        Mago2.TipoDeDano = "Quimadura";
         
-        Debug.Log($"Feiticeiro 1: {Mago1.Nome}, Nível: {Mago1.Forca}, Magia: {Mago1.TipoDeDano}");
-        Debug.Log($"Feiticeiro 2: {Mago2.Nome}, Nível: {Mago2.Forca}, Magia: {Mago2.TipoDeDano}");
+        Debug.Log($"Mago 1: {Mago1.Nome}, Nível: {Mago1.Nivel}, Magia: {Mago1.TipoDeDano}");
+        Debug.Log($"Feiticeiro 2: {Mago2.Nome}, Nível: {Mago2.Nivel}, Magia: {Mago2.TipoDeDano}");
 
         Debug.Log($"{Mago1.Nome} tem nível maior que {Mago2.Nome}? {Mago1.TemNivelMaiorQue(Mago2)}");
     }

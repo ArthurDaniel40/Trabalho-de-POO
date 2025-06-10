@@ -5,7 +5,7 @@ public class Personagem: MonoBehaviour
  
     private string nome;
     private int vida;
-    private int forca;
+    private int _nivel;
     private float velocidade;
 
   
@@ -21,10 +21,10 @@ public class Personagem: MonoBehaviour
         set { vida = value; }
     }
 
-    public int Forca
+    public int Nivel
     {
-        get { return forca; }
-        set { forca = value; }
+        get { return _nivel; }
+        set { _nivel = value; }
     }
 
     public float Velocidade

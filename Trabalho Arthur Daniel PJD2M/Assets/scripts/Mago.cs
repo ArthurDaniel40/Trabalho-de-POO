@@ -1,19 +1,21 @@
 using UnityEngine;
+using UnityEngine;
+using UnityEngine.Serialization;
 
-public class Arthur : Personagem
+public class Filipe : Personagem
 {
-    [SerializeField] private string HabilidadeEspecial = "Bola de fogo";
-    [SerializeField] private string TipoDeDano = "Queimadura";
+    [SerializeField] private string habilidadeEspecial = "Explosão Arcana";
+    [FormerlySerializedAs("tipoMagia")] [SerializeField] private string tipoDano = "Magia Caótica";
 
-    public string habilidadeEspecial
+    public string HabilidadeEspecial
     {
-        get {return HabilidadeEspecial;}
-        set {HabilidadeEspecial = value;}
+        get { return habilidadeEspecial; }
+        set { habilidadeEspecial = value; }
     }
 
-    public string TipoDeDano
+    public string TipoDano
     {
-        get {return TipoDeDano}
-        
+        get { return tipoDano; }
+        set { tipoDano = value; }
     }
 }
