@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class TestePersonagem : MonoBehaviour
 {
-    public Arthur Mago1;
-    public Arthur Mago2;
+    public Mago Mago1;
+    public Mago Mago2;
 
+    
     void Start()
     {
         Mago1.Nome = "Arthur mestre do fogo";
@@ -20,6 +21,7 @@ public class TestePersonagem : MonoBehaviour
         Mago2.Mana = 180;
         Mago2.HabilidadeEspecial = "Bola de fogo";
         Mago2.TipoDeDano = "Quimadura";
+        
         
         Debug.Log($"Mago 1: {Mago1.Nome}, Nível: {Mago1.Nivel}, Magia: {Mago1.TipoDeDano}");
         Debug.Log($"Feiticeiro 2: {Mago2.Nome}, Nível: {Mago2.Nivel}, Magia: {Mago2.TipoDeDano}");
