@@ -1,12 +1,14 @@
-public class Personagem
+using UnityEngine;
+
+public class Personagem: MonoBehaviour
 {
-    // Variáveis privadas para guardar os dados
+ 
     private string nome;
     private int vida;
     private int forca;
     private float velocidade;
 
-    // Propriedades para ler e escrever as variáveis
+  
     public string Nome
     {
         get { return nome; }
@@ -29,5 +31,10 @@ public class Personagem
     {
         get { return velocidade; }
         set { velocidade = value; }
+    }
+    public float Mana
+    {
+        get { return Mana; }
+        set { Mana = value; }
     }
 }
