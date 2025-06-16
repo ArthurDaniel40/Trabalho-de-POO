@@ -547,7 +547,6 @@ GameObject:
   - component: {fileID: 1210555499}
   - component: {fileID: 1210555498}
   - component: {fileID: 1210555497}
-  - component: {fileID: 1210555496}
   - component: {fileID: 1210555503}
   - component: {fileID: 1210555502}
   m_Layer: 0
@@ -557,18 +556,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1210555496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1210555495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd227635e8fbb0d41b9f8bf3541d2560, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &1210555497
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -699,6 +686,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd227635e8fbb0d41b9f8bf3541d2560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nome: Arthur
+  vida: 46
+  _nivel: 12
+  velocidade: 9
+  mana: 75
 --- !u!114 &1210555503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,6 +703,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b8809ad78815a944ab8ea5754265c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nome: felipe
+  vida: 46
+  _nivel: 12
+  velocidade: 9
+  mana: 75
   habilidadeEspecial: "Explos\xE3o Arcana"
   tipoDano: "Magia Ca\xF3tica"
 --- !u!1 &1608022241
@@ -792,6 +789,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b8809ad78815a944ab8ea5754265c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nome: Zarek
+  vida: 31
+  _nivel: 8
+  velocidade: 9
+  mana: 60
   habilidadeEspecial: "Explos\xE3o Arcana"
   tipoDano: "Magia Ca\xF3tica"
 --- !u!54 &1868758575

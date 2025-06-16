@@ -2,10 +2,15 @@ using UnityEngine;
 
 public class Personagem : MonoBehaviour
 {
+    [SerializeField]
     private string nome;
+    [SerializeField]
     private int vida;
+    [SerializeField]
     private int _nivel;
+    [SerializeField]
     private float velocidade;
+    [SerializeField]
     private float mana; 
 
    
