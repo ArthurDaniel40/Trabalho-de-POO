@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class Personagem: MonoBehaviour
+public class Personagem : MonoBehaviour
 {
- 
     private string nome;
     private int vida;
     private int _nivel;
     private float velocidade;
+    private float mana; 
 
-  
+   
     public string Nome
     {
         get { return nome; }
@@ -32,9 +32,16 @@ public class Personagem: MonoBehaviour
         get { return velocidade; }
         set { velocidade = value; }
     }
+
     public float Mana
     {
-        get { return Mana; }
-        set { Mana = value; }
+        get { return mana; }
+        set { mana = value; }
+    }
+
+ 
+    public bool CompararNivel(Personagem outro)
+    {
+        return this.Nivel > outro.Nivel;
     }
 }

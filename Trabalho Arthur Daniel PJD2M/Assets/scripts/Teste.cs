@@ -20,12 +20,12 @@ public class TestePersonagem : MonoBehaviour
         Mago2.Vida = 90;
         Mago2.Mana = 180;
         Mago2.HabilidadeEspecial = "Bola de fogo";
-        Mago2.TipoDeDano = "Quimadura";
+        Mago2.TipoDeDano = "Queimadura";
         
         
         Debug.Log($"Mago 1: {Mago1.Nome}, Nível: {Mago1.Nivel}, Magia: {Mago1.TipoDeDano}");
         Debug.Log($"Feiticeiro 2: {Mago2.Nome}, Nível: {Mago2.Nivel}, Magia: {Mago2.TipoDeDano}");
+        Debug.Log($"{Mago1.Nome} tem nível maior que {Mago2.Nome}? {Mago1.CompararNivel(Mago2)}");
 
-        Debug.Log($"{Mago1.Nome} tem nível maior que {Mago2.Nome}? {Mago1.TemNivelMaiorQue(Mago2)}");
     }
 }
