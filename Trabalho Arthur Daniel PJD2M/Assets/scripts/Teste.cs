@@ -28,4 +28,7 @@ public class TestePersonagem : MonoBehaviour
         Debug.Log($"{Mago1.Nome} tem nível maior que {Mago2.Nome}? {Mago1.CompararNivel(Mago2)}");
 
     }
+    
+    
+    
 }
